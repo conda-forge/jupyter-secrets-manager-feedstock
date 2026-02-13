@@ -1,5 +1,5 @@
 {% set name = "jupyter-secrets-manager" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyter_secrets_manager-{{ version }}.tar.gz
-  sha256: 9604d742f3b8c6b11f4337558ba7702f67994a33902d65d29147acb4ed6bc930
+  sha256: 2833f662184c8529e90a02ae44c9f60d0db624a7687ae4b2643b22cc05c700b7
 
 build:
   noarch: python
